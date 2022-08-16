@@ -12,6 +12,7 @@
   "devDependencies": {
     "@astrojs/solid-js": "^1.0.0",
     "@astrojs/tailwind": "^1.0.0",
+    "@astrojs/vercel": "^1.0.0",
     "astro": "^1.0.5",
     "solid-js": "^1.4.3"
   }
