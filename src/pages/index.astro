@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/Layout.astro';
 import Card from '~/components/Card.astro';
+import { Counter } from '~/components/Counter'
 ---
 
 <Layout title="Welcome to Astro.">
@@ -10,6 +11,9 @@ import Card from '~/components/Card.astro';
 			Check out the <code>src/pages</code> directory to get started.<br />
 			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
 		</p>
+
+		<Counter client:load />
+
 		<ul role="list" class="link-card-grid">
 			<Card
 				href="https://docs.astro.build/"
