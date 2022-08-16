@@ -1,6 +1,6 @@
 import solidJS from "@astrojs/solid-js";
 import tailwind from "@astrojs/tailwind";
-import vercel from '@astrojs/vercel/serverless';
+import vercel from "@astrojs/vercel/static";
 import { defineConfig } from "astro/config";
 
 /**
@@ -9,5 +9,5 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   adapter: vercel(),
   integrations: [solidJS(), tailwind()],
-  output: 'server',
+  output: "server",
 });
