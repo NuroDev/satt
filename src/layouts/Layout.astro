@@ -12,11 +12,11 @@ const { title } = Astro.props as Props;
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+		<SEO title={title} description="Solid.js + Astro + Tailwind CSS + TypeScript project template" />
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<meta charset="UTF-8" />
 		<meta name="generator" content={Astro.generator} />
-		<SEO title={title} description="A heavily optimized description full of well-researched keywords." />
+		<meta name="viewport" content="width=device-width" />
 	</head>
 	<body>
 		<slot />
